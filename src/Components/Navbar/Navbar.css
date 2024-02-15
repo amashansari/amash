@@ -1,7 +1,7 @@
 /*                                      NAVBAR-CONENT                                       */
 .navbar-content {
   border-bottom: 1px solid ;
-  font-size: 3vw;
+  font-size: 2vw;
 }
 
 .logo,
@@ -16,12 +16,12 @@
   width: 0px;
   background-color: var(--color-1);
   position: absolute;
-  transform: translateY(5vh);
+  transform: translateY(22px);
   transition: 0.5s ease-in-out;
 }
 
 .nav-about:hover::before,.nav-project:hover::before{
-  width: 9vw;
+  width: 6vw;
   cursor: pointer;
 }
 
@@ -88,6 +88,12 @@
   font-family: bunch;
 }
 
+
+@media screen and (max-width: 786px) {
+  .navbar-content {
+    font-size: 3vw;
+  }
+}
 
 @media screen and (max-width: 540px) {
   .navbar-content {
