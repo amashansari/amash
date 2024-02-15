@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/amash/static/css/main.d0438ad4.css",
-    "main.js": "/amash/static/js/main.05585c39.js",
+    "main.js": "/amash/static/js/main.0cf2daa1.js",
     "static/js/787.7da95b79.chunk.js": "/amash/static/js/787.7da95b79.chunk.js",
     "static/media/bhaijan.png": "/amash/static/media/bhaijan.b22068304eeb98383e0b.png",
     "static/media/mhdali.png": "/amash/static/media/mhdali.ce92bb5bac7515e02d33.png",
     "static/media/silverfork.png": "/amash/static/media/silverfork.531a812bc576a9a363de.png",
     "static/media/glory.png": "/amash/static/media/glory.5180c08dd46be835cbd7.png",
-    "static/media/wolfgang-hasselmann-3RD4XAOdYb0-unsplash.jpg": "/amash/static/media/wolfgang-hasselmann-3RD4XAOdYb0-unsplash.77fbd325ca6b415284db.jpg",
+    "static/media/homebg.jpg": "/amash/static/media/homebg.77fbd325ca6b415284db.jpg",
     "static/media/digiverse.png": "/amash/static/media/digiverse.512ae9debfb154ece281.png",
     "static/media/Newsagent-Regular.ttf": "/amash/static/media/Newsagent-Regular.bdb681277d5281128bca.ttf",
     "static/media/contactLogo.png": "/amash/static/media/contactLogo.18c40d4e59df4695bd92.png",
@@ -36,11 +36,11 @@
     "static/media/Linkdin.svg": "/amash/static/media/Linkdin.dee5904d6b5b584fefd92bebdf3a15cf.svg",
     "static/media/Twiter.svg": "/amash/static/media/Twiter.44aa4afd27bc3f0a521ee8ef179d356d.svg",
     "main.d0438ad4.css.map": "/amash/static/css/main.d0438ad4.css.map",
-    "main.05585c39.js.map": "/amash/static/js/main.05585c39.js.map",
+    "main.0cf2daa1.js.map": "/amash/static/js/main.0cf2daa1.js.map",
     "787.7da95b79.chunk.js.map": "/amash/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d0438ad4.css",
-    "static/js/main.05585c39.js"
+    "static/js/main.0cf2daa1.js"
   ]
 }
