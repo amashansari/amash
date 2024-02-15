@@ -60,7 +60,7 @@ const Navbar = () => {
                 <a href="/amash">Home</a>
               </li>
               <li className="display-1">
-                <a href="/aboutWork">
+                <a href="/amash/aboutWork">
                   About <span className="and display-6">&</span> <br /> Work
                 </a>
               </li>
