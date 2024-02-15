@@ -1,0 +1,68 @@
+.home-content {
+  height: 90vh;
+}
+
+.home-content img {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+  filter: blur(1px);
+}
+
+.home-content-text {
+  height: 90%;
+}
+
+.home-right-left {
+  height: 100%;
+}
+
+.hrb-left {
+  font-family: bunch;
+}
+
+.hrb-left-bottom {
+  text-align: right;
+}
+
+.hrb-right {
+  font-size: 8vw;
+}
+
+p.hrb-right-top,
+p.hrb-right-middle,
+p.hrb-right-bottom {
+  font-family: brice;
+}
+
+.hrb-left {
+  font-family: bunch;
+  font-size: 2vw;
+}
+
+.hrb-left-bottom {
+  text-align: right;
+}
+
+@media screen and (max-width: 768px) {
+  .hrb-right {
+    font-size: 10vw;
+  }
+
+  .hrb-left {
+    font-size: 3vw;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .hrb-right {
+    font-size: 11vw;
+  }
+
+  .hrb-left {
+    font-size: 4vw;
+  }
+}

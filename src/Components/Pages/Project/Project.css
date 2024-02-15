@@ -1,0 +1,133 @@
+.project-content {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background: rgb(33 37 41);
+  /* background: var(--color-2); */
+  color: var(--color-1);
+}
+
+.project-content-top-forward {
+  display: inline-flex;
+}
+
+.name-movement-forward {
+  display: inline-flex;
+  font-family: champ;
+}
+
+.inside-movement-forward {
+  font-size: 120px;
+  animation: slideForward 10s infinite linear;
+  white-space: nowrap;
+}
+.empty {
+  color: transparent;
+  -webkit-text-stroke: 2px var(--color-1);
+}
+.apos {
+  font-family: newsagent;
+}
+
+@keyframes slideForward {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.project-content-bottom {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.projects {
+  width: 100%;
+}
+
+.project:nth-child(1) {
+  border: none;
+}
+
+.project {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid;
+  padding: 1vh;
+}
+
+.project-slogan {
+  font-family: bunch;
+}
+
+hr {
+  width: 25px;
+}
+
+.projectTitel {
+  font-family: newsagent;
+}
+
+.projectSubTitle {
+  font-family: magalie;
+}
+
+.projectBreak {
+  display: none;
+}
+
+.project-hover {
+  display: none;
+  height: 30%;
+  width: 37%;
+  position: absolute;
+  transform: translate(52%, -2%);
+  transition: transform 1s ease;
+}
+
+.project-hover img {
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px -4px;
+}
+
+.project:hover .project-hover {
+  display: inline-block;
+  z-index: 1000;
+}
+
+.clickView {
+  display: none;
+}
+
+.clickView a{
+  color: var(--color-1);
+}
+
+@media screen and (max-width: 1024px) {
+  .project:hover .project-hover {
+    display: none;
+  }
+  .remote {
+    display: none !important;
+  }
+  .clickView {
+    display: flex;
+  }
+}
+@media screen and (max-width: 435px) {
+  .projectBreak {
+    display: block;
+  }
+  .project-content-bottom {
+    flex-direction: column-reverse !important;
+  }
+  .project-slogan {
+    flex-direction: row !important;
+    letter-spacing: 1px;
+  }
+}

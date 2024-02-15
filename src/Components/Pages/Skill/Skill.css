@@ -1,0 +1,47 @@
+/*                                     SKILL-COMPONENT                                       */
+.skill-content {
+  height: 74vh;
+}
+.skill-mid {
+  font-family: champ;
+}
+
+.hidden-skill-left {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(460%);
+  transition: all 1s;
+}
+.hidden-skill-right {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-460%);
+  transition: all 1s;
+}
+
+.show-skill {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
+.skill1,
+.skill3,
+.skill5 {
+  transform: translateX(-30%);
+}
+
+.skill2,
+.skill4 {
+  transform: translateX(30%);
+}
+
+.skill6,
+.skill8,
+.skill10 {
+  transform: translateX(30%);
+}
+.skill7,
+.skill9 {
+  transform: translateX(-30%);
+}

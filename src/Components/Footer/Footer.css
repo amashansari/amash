@@ -1,0 +1,33 @@
+/*                                     FOOTER-COMPONENT                                       */
+.footer-content {
+    height: 100vh;
+    background: var(--color-2);
+  }
+  .footer-top {
+    color: var(--color-1);
+    font-family: champ;
+  }
+  .footer-top span {
+    color: transparent;
+    -webkit-text-stroke: 2px var(--color-1);
+  }
+  .footer-mid-img {
+    height: 23vh;
+  }
+  .footer-mid img {
+    animation: rotate 10s infinite linear;
+    height: 100%;
+  }
+  @keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .footer-end {
+    color: var(--color-1);
+    font-family: magalie;
+    letter-spacing: 1px;
+  }
