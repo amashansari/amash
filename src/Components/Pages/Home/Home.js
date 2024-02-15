@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import Homebg from "../../Asstes/wolfgang-hasselmann-3RD4XAOdYb0-unsplash.jpg";
+import Homebg from "../../Asstes/homebg.jpg";
 
 const Home = () => {
   return (

@@ -57,7 +57,7 @@ const Navbar = () => {
             </div>
             <ul className="textNavigation py-5">
               <li className="display-1">
-                <a href="/">Home</a>
+                <a href="/amash">Home</a>
               </li>
               <li className="display-1">
                 <a href="/aboutWork">
