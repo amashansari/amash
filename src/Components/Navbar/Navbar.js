@@ -4,6 +4,7 @@ import Hamburger from "../Asstes/hamburger.svg";
 
 import Cross from "../Asstes/cross.svg";
 import Socials from "../Socials/Socials";
+import LogoName from "../Asstes/logo-name.png";
 
 const Navbar = () => {
   const [menuPopped, setMenuPopped] = useState(false);
@@ -30,14 +31,14 @@ const Navbar = () => {
   return (
     <>
       <div className="navbar-component">
-        <div className="navbar-content d-flex justify-content-between p-4">
+        <div className="navbar-content d-flex justify-content-center p-4">
           <div className="nav-logo">
-            <div className="logo">AMASH ANSARI</div>
+            <img src={LogoName} alt="" />
           </div>
-          <div className="nav-content d-flex gap-2">
+          {/* <div className="nav-content d-flex gap-2">
             <div className="nav-about">about,</div>
             <div className="nav-project">works</div>
-          </div>
+          </div> */}
           <div
             className={`menu-circle pop ${menuPopped || show ? "poped" : ""}`}
           >

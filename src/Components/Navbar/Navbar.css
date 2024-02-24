@@ -10,6 +10,16 @@
   font-family: champ;
 }
 
+.nav-logo {
+  height: 70px;
+  width: 250px;
+}
+
+.nav-logo img{
+  height: 100%;
+  width: 100%;
+}
+
 .nav-about::before,.nav-project::before{
   content: "";
   height: 1.5px;

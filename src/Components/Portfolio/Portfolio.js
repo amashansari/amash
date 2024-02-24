@@ -8,7 +8,7 @@ import Home from "../Pages/Home/Home";
 const Portfolio = () => {
   return (
     <>
-      <Preloader />
+      {/* <Preloader /> */}
       <div className="portfolio">
         <div className="home-component ">
           <Home />

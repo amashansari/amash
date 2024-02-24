@@ -34,7 +34,7 @@ const Preloader = () => {
       } else {
         clearInterval(intervalId);
       }
-    }, 100);
+    }, 150);
 
     return () => clearInterval(intervalId);
   }, [greetingIndex, greetings.length]);
