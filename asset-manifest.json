@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/amash/static/css/main.49b684aa.css",
-    "main.js": "/amash/static/js/main.71b95123.js",
+    "main.css": "/amash/static/css/main.8bec2dfc.css",
+    "main.js": "/amash/static/js/main.70bee2a4.js",
     "static/js/787.7da95b79.chunk.js": "/amash/static/js/787.7da95b79.chunk.js",
     "static/media/bhaijan.png": "/amash/static/media/bhaijan.b22068304eeb98383e0b.png",
+    "static/media/homeVideo.mp4": "/amash/static/media/homeVideo.bef8aacd5e8ae96d8b03.mp4",
     "static/media/mhdali.png": "/amash/static/media/mhdali.ce92bb5bac7515e02d33.png",
     "static/media/silverfork.png": "/amash/static/media/silverfork.531a812bc576a9a363de.png",
     "static/media/glory.png": "/amash/static/media/glory.5180c08dd46be835cbd7.png",
-    "static/media/homebg.jpg": "/amash/static/media/homebg.77fbd325ca6b415284db.jpg",
     "static/media/digiverse.png": "/amash/static/media/digiverse.512ae9debfb154ece281.png",
     "static/media/Newsagent-Regular.ttf": "/amash/static/media/Newsagent-Regular.bdb681277d5281128bca.ttf",
     "static/media/contactLogo.png": "/amash/static/media/contactLogo.18c40d4e59df4695bd92.png",
@@ -35,12 +35,12 @@
     "static/media/tailwind.svg": "/amash/static/media/tailwind.5a327c1144f3018bfa9a49afe5ead097.svg",
     "static/media/Linkdin.svg": "/amash/static/media/Linkdin.dee5904d6b5b584fefd92bebdf3a15cf.svg",
     "static/media/Twiter.svg": "/amash/static/media/Twiter.44aa4afd27bc3f0a521ee8ef179d356d.svg",
-    "main.49b684aa.css.map": "/amash/static/css/main.49b684aa.css.map",
-    "main.71b95123.js.map": "/amash/static/js/main.71b95123.js.map",
+    "main.8bec2dfc.css.map": "/amash/static/css/main.8bec2dfc.css.map",
+    "main.70bee2a4.js.map": "/amash/static/js/main.70bee2a4.js.map",
     "787.7da95b79.chunk.js.map": "/amash/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.49b684aa.css",
-    "static/js/main.71b95123.js"
+    "static/css/main.8bec2dfc.css",
+    "static/js/main.70bee2a4.js"
   ]
 }
