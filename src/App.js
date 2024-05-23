@@ -1,23 +1,15 @@
-import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Portfolio from "./Components/Portfolio/Portfolio";
-import Navbar from "./Components/Navbar/Navbar";
-import AboutWork from "./Components/Pages/AboutWork/AboutWork";
-import Footer from "./Components/Footer/Footer";
+import CustomFooter from "./Components/Footer/CustomFooter";
+import CustomNavbar from "./Components/Navbar/CustomNavbar";
+import CustomPortfolio from "./Components/Portfolio/CustomPortfolio";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Navbar />
-      <div className="App">
-        <Routes>
-          <Route path="/amash" element={<Portfolio />}></Route>
-          <Route path="/amash/aboutWork" element={<AboutWork />}></Route>
-        </Routes>
-      </div>
-      <Footer />
-    </BrowserRouter>
+    <div className="App">
+      <CustomNavbar />
+      <CustomPortfolio />
+      <CustomFooter />
+    </div>
   );
 }
 

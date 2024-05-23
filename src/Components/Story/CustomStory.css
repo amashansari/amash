@@ -1,0 +1,85 @@
+/* ////////////////////  STORY  \\\\\\\\\\\\\\\\\ */
+
+.main-story-container {
+  padding: 20vh 0px;
+}
+
+.story-left-top p {
+  font-family: roc-grotesk, sans-serif;
+  font-weight: 600;
+  font-family: Cabinet Grotesk;
+}
+.story-left-bottom p {
+  font-family: roc-grotesk, sans-serif;
+  color: gray;
+  font-weight: 600;
+  font-family: Cabinet Grotesk;
+}
+
+.main-myphoto {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: inset 0 -3px #0000000d, inset 0 0 0 2px #fff,
+    inset 0 4px 2px #0000000f, inset 0 0 24px 4px #0000000a, 0 1px 3px #0000001f;
+  width: 310px;
+  padding: 15px 15px;
+  transform: rotate(-7deg);
+}
+.myPhoto {
+  height: 300px;
+  width: 280px;
+}
+.myPhoto img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 7px;
+}
+
+.myPhoto-text p {
+  font-size: 30px;
+  font-family: "Caveat", sans-serif;
+  color: lightgrey;
+}
+
+.myPhoto-text {
+  padding: 15px 0px;
+  text-align: center;
+}
+
+.main-story-container-right {
+  text-align: justify;
+}
+
+.para {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.hr {
+  height: 2px;
+  background-color: lightgray;
+}
+
+@media screen and (max-width: 992px) {
+  .main-story-container {
+    padding: 10vh 0px;
+  }
+  
+  .main-story-container-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .my-photo-main {
+    display: flex;
+    justify-content: center;
+  }
+  .main-myphoto{
+    transform: rotate(0deg);
+    margin-bottom: 25px;
+  }
+  .main-story-container-right {
+    margin: 0 10px;
+  }
+}

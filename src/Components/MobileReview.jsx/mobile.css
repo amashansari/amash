@@ -1,0 +1,19 @@
+.swiper {
+  width: 300px;
+  height: 400px;
+}
+
+.swiper-slide {
+  border-radius: 18px;
+}
+
+@media screen and (max-width:526px) {
+  .swiper {
+    width: 275px;
+  }
+}
+@media screen and (max-width:405px) {
+  .swiper {
+    width: 230px;
+  }
+}

@@ -1,0 +1,71 @@
+/* ////////////////////  SKILL  \\\\\\\\\\\\\\\\\ */
+
+.main-skill-container {
+  height: 100%;
+  width: 100%;
+  border-radius: 36px;
+  box-shadow: inset 0 -3px #0000000d, inset 0 0 0 2px #fff,
+    inset 0 4px 2px #0000000f, inset 0 0 24px 4px #0000000a, 0 1px 3px #0000001f;
+  background: radial-gradient(
+    circle,
+    rgba(172, 219, 255, 1) -300%,
+    rgba(252, 252, 252, 1) 100%
+  );
+  padding: 48px;
+}
+.skill-top {
+  display: flex;
+  justify-content: end;
+}
+.skill-top p {
+  color: gray;
+  transform: rotate(6deg);
+  font-family: "Caveat", sans-serif;
+}
+.top-black p {
+  font-family: Cabinet Grotesk;
+
+  font-weight: 600;
+}
+.top-gray p {
+  font-family: Cabinet Grotesk;
+
+  color: gray;
+  font-weight: 600;
+}
+.skill-left-top {
+  padding-bottom: 20px;
+}
+.skill-left-bottom p {
+  text-align: justify;
+  font-size: 25px;
+}
+.bottom-head p {
+  font-family: Cabinet Grotesk;
+  font-weight: 600;
+}
+
+.main-box {
+  position: relative;
+  height: 300px;
+}
+
+.small-box {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+}
+
+@media screen and (max-width: 992px) {
+  .skill-left-top {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 425px) {
+  .skill-left-bottom p {
+    font-size: 20px;
+  }
+  .main-skill-container{
+    padding: 10px;
+  }
+}

@@ -1,0 +1,119 @@
+.main-footer-container {
+  height: 100%;
+  width: 100%;
+  background: radial-gradient(
+    circle,
+    rgba(172, 219, 255, 1) -300%,
+    rgba(252, 252, 252, 1) 100%
+  );
+
+  border-radius: 36px;
+  box-shadow: inset 0 -3px #0000000d, inset 0 0 0 2px #fff,
+    inset 0 4px 2px #0000000f, inset 0 0 24px 4px #0000000a, 0 1px 3px #0000001f;
+  margin: 14px 0px;
+  padding: 5vh 13vh;
+}
+
+.footer-top,
+.footer-mid {
+  font-weight: 500 !important;
+  font-family: Cabinet Grotesk;
+  color: black;
+}
+.start-button {
+  font-size: 20px;
+  background: black;
+  color: white;
+  border-radius: 80px;
+  height: 50px;
+  width: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hr.bg-secondary {
+  height: 1px;
+}
+
+.connect {
+  color: black;
+  font-size: 18px;
+}
+.emailid {
+  font-size: 22px;
+  font-family: Cabinet Grotesk;
+  color: black;
+}
+
+.socials-links {
+  display: flex;
+}
+
+.socials-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  height: 100%;
+  justify-content: flex-end;
+}
+
+.linkdin,
+.twitter,
+.instagram,
+.email {
+  border-radius: 50%;
+  /* border: 1px solid white; */
+  padding: 15px;
+}
+.linkdin:hover,
+.twitter:hover,
+.instagram:hover,
+.email:hover {
+  background: linear-gradient(rgb(255 255 255) 0%, rgb(255 255 255 / 48%) 100%);
+  box-shadow: rgb(255 255 255) 0px 5px 6px 0px inset,
+    rgb(255 255 255 / 0%) 0px -5px 2px 0px inset,
+    rgb(0 0 0 / 8%) 0px -4px 6px 1px inset,
+    inset rgba(0, 0, 0, 0.12) 0px 0px 17px 2px;
+  color: #fff;
+}
+
+@media screen and (max-width: 992px) {
+  .main-footer-container {
+    padding: 5vh 4vh;
+  }
+  .footer-top {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 769px) {
+  .footer-top {
+    margin-bottom: 20px !important;
+    font-size: 20px;
+  }
+  .footer-mid {
+    margin-bottom: 20px !important;
+    font-size: 30px;
+  }
+  .start-button {
+    margin-bottom: 20px !important;
+  }
+  .connect {
+    margin-top: 20px !important;
+    margin-bottom: 0 !important;
+  }
+  .socials-right {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 7vh;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .footer-top {
+    font-size: 17px;
+  }
+  .footer-mid {
+    font-size: 23px;
+  }
+}

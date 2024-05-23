@@ -1,0 +1,54 @@
+.main-quote1-container{
+    padding-bottom: 20vh;
+}
+
+.quote1-top p{
+    font-family: Cabinet Grotesk;
+}
+
+.digiLogo{
+    height: 50px;
+    width: 50px;
+}
+
+.digiLogo img{
+    height: 100%;
+    width: 100%;
+}
+
+.UnitiLogo {
+    height: 50px;
+    width: 50px;
+}
+
+.UnitiLogo img {
+    height: 100%;
+    width: 100%;
+}
+
+.GloryLogo{
+    height: 50px;
+    width: 50px;
+}
+
+.GloryLogo img{
+    height: 100%;
+    width: 100%;
+}
+
+.BaselicoLogo{
+    height: 50px;
+    width: 50px;
+}
+
+.BaselicoLogo img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 1090px) {
+    .main-quote1-container{
+        padding-bottom: 10vh;
+    }
+}

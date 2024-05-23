@@ -1,56 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap&family=Barlow+Condensed:wght@200&family=Bilbo&family=Playfair+Display+SC:wght@700&display=swap&family=Fondamento&family=Oswald:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap");
 
 @font-face {
-  font-family: champ;
-  src: url("../public/Champ-Black.ttf");
-}
-@font-face {
-  font-family: brice;
-  src: url("../public/Brice-BlackCondensed.ttf");
-}
-@font-face {
-  font-family: newsagent;
-  src: url("../public/Newsagent-Regular.ttf");
-}
-@font-face {
-  font-family: magalie;
-  src: url("../public/Magalie-Regular.ttf ");
-}
-@font-face {
-  font-family: bunch;
-  src: url("../public/Bunch-Heavy.otf ");
-}
-@font-face {
-  font-family: tusker;
-  src: url("../public/FONT/TuskerGrotesk-1700Bold.otf ");
-}
-
-:root{
-  --color-1: #f5f5dc;
-  --color-2: rgb(134, 38, 38);
-}
-
-body {
-  height: 100%;
-  width: 100%;
-  background: var(--color-1);
-  background-size: cover;
-  overflow-x: hidden;
+  font-family: Cabinet Grotesk;
+  src: url("../public/CabinetGrotesk-Medium.otf");
 }
 
 ul{
-  padding: 0;
-  margin: 0;
-}
-
-li {
-  list-style: none;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 p {
-  margin: 0;
-}
-
-a {
-  text-decoration: none;
+  margin-bottom: 0 !important;
 }

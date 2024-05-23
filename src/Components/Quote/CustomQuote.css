@@ -1,0 +1,28 @@
+.main-qoute-container {
+  padding: 10vh 0px;
+}
+.quote-left {
+  font-family: Cabinet Grotesk;
+}
+.quote-right {
+  font-family: "Caveat", sans-serif;
+  transform: rotate(7deg) translateY(100%);
+}
+
+@media screen and (max-width: 768px) {
+  .main-qoute-container {
+    flex-direction: column;
+  }
+  .quote-left {
+    text-align: center;
+  }
+  .quote-right {
+    transform: rotate(7deg) translate(250px, -60px);
+    width: 210px;
+  }
+}
+@media screen and (max-width: 476px) {
+  .quote-right {
+    transform: rotate(7deg) translate(90px, -40px);
+  }
+}
