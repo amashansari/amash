@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/amash/static/css/main.87f4c160.css",
-    "main.js": "/amash/static/js/main.f5faa2d9.js",
+    "main.js": "/amash/static/js/main.2d853754.js",
     "static/js/453.41811d64.chunk.js": "/amash/static/js/453.41811d64.chunk.js",
     "static/media/terrace.mp4": "/amash/static/media/terrace.6494d89f14bb04078fd1.mp4",
     "static/media/res2.png": "/amash/static/media/res2.ab57ca40a70c6d8d6408.png",
@@ -45,11 +45,11 @@
     "static/media/Linkdin.svg": "/amash/static/media/Linkdin.3c42c81e33f1a05958290934fa6b9820.svg",
     "static/media/Twiter.svg": "/amash/static/media/Twiter.85ce38a83b71e2c889e2b2e5558bbaff.svg",
     "main.87f4c160.css.map": "/amash/static/css/main.87f4c160.css.map",
-    "main.f5faa2d9.js.map": "/amash/static/js/main.f5faa2d9.js.map",
+    "main.2d853754.js.map": "/amash/static/js/main.2d853754.js.map",
     "453.41811d64.chunk.js.map": "/amash/static/js/453.41811d64.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.87f4c160.css",
-    "static/js/main.f5faa2d9.js"
+    "static/js/main.2d853754.js"
   ]
 }
