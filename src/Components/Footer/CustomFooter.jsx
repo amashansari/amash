@@ -18,30 +18,52 @@ const CustomFooter = () => {
           <div className="footer-mid mb-5 display-4">
             Let's make it happen✨
           </div>
-          <div className="start-button mb-5">Start a project</div>
+          <div className="start-button mb-5">
+            <a
+              href="mailto: amashansari74@gmail.com"
+              className="text-light text-decoration-none"
+            >
+              Start a project
+            </a>
+          </div>
           <div className="hr bg-secondary"></div>
           <div className="socials">
             <Row>
               <Col lg={6}>
                 <div className="socials-left">
                   <div className="connect mt-5 mb-3">Connect</div>
-                  <div className="emailid">amashansari74@gmail.com</div>
+                  <div className="emailid">
+                    <a
+                      href="mailto: amashansari74@gmail.com"
+                      className="text-dark text-decoration-none"
+                    >
+                      amashansari74@gmail.com
+                    </a>
+                  </div>
                 </div>
               </Col>
               <Col lg={6}>
                 <div className="socials-right">
                   <div className="socials-links gap-3">
                     <div className="linkdin">
-                      <img src={LiinkdinImg} alt="" />
+                      <a href="https://www.linkedin.com/in/amash-ansari-368415263">
+                        <img src={LiinkdinImg} alt="" />
+                      </a>
                     </div>
                     <div className="twitter">
-                      <img src={TwitterImg} alt="" />
+                      <a href="https://x.com/AmashAnsari6?t=P4ihW_Oy4qFt2EdL5xLfPg&s=09">
+                        <img src={TwitterImg} alt="" />
+                      </a>
                     </div>
                     <div className="instagram">
-                      <img src={InstagramImg} alt="" />
+                      <a href="https://www.instagram.com/_amashh_?igsh=Nm12bDhoeXkyeDJh">
+                        <img src={InstagramImg} alt="" />
+                      </a>
                     </div>
                     <div className="email">
-                      <img src={EmailImg} alt="" />
+                      <a href="mailto: amashansari74@gmail.com">
+                        <img src={EmailImg} alt="" />
+                      </a>
                     </div>
                   </div>
                 </div>
