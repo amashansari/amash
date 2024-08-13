@@ -65,11 +65,17 @@
     padding: 00vh 0 10vh 0;
   }
   .card-body {
-    height: 65vh;
+    height: 60vh;
   }
 }
 @media screen and (max-width: 575px) {
   .cardBox {
     width: 80vw;
+  }
+  .card-body {
+    padding: 13px !important;
+  }
+  .card-body img {
+    border-radius: 26px;
   }
 }

@@ -77,6 +77,11 @@
   color: #fff;
 }
 
+.footerCopy{
+  transform: translateY(40px);
+  text-align: center;
+}
+
 @media screen and (max-width: 992px) {
   .main-footer-container {
     padding: 5vh 4vh;

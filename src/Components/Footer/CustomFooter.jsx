@@ -70,6 +70,9 @@ const CustomFooter = () => {
               </Col>
             </Row>
           </div>
+          <div className="footerCopy">
+            All Right reserved 2024
+          </div>
         </div>
       </Container>
     </>
